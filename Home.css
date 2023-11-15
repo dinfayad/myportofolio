@@ -1,0 +1,54 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    text-align: center;
+    background-color: cornsilk;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+header span {
+    color: red;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+    border: 1.5px black solid;
+    border-radius: 8px;
+    width: 100px;
+}
+
+.list {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li:hover {
+    background-color: red ;
+    transition:  .5s ease-in;
+}
+.artik {
+    display: flex;
+}
+
+article {
+    padding: 50px;
+    font-size: 30px;
+}
+
+@media (max-width: 800px) {
+    .artik {
+        flex-direction: column;
+    }
+}
